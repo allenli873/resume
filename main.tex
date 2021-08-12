@@ -1,0 +1,42 @@
+\documentclass[letterpaper,11pt]{article}
+
+% Choose bibliography style for formatting list of publications
+\usepackage[style=ieee,url=false,doi=false,maxbibnames=99,sorting=ydnt,dashed=false]{biblatex}
+\bibliography{papers}
+
+% Choose theme, e.g. black, RedViolet, ForestGreen, MidnightBlue
+\def\theme{black}
+
+% More predefined colors can be found in 
+% https://en.wikibooks.org/wiki/LaTeX/Colors
+% Example photograph taken from Wikimedia Commons
+% https://commons.wikimedia.org/wiki/File:Kiara_Krit_passport.jpg
+
+\usepackage{simplecv}
+
+\boldname{Li}{Allen}{N.}
+
+\begin{document}
+
+% Heading
+\headinginline{\textbf{\LARGE Allen Li}\newline allli@umich.edu}{
+Cupertino, California, 95014
+1-408-797-4395
+}
+\vspace{1.5mm}
+
+% \headingphoto{Name Surname}{
+%     Website: \website{example.com} \\ 
+%     Email: \email{example@example.edu} \\
+%     LinkedIn: \linkedin{name-surname} \\
+%     GitHub: \github{example}
+% }{photo.jpg}
+
+% Page One
+\import{sections/}{awards.tex}
+\import{sections/}{education.tex}
+\import{sections/}{experience.tex}
+\import{sections/}{projects.tex}
+\import{sections/}{skills.tex}
+
+\end{document}

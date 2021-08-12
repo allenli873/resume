@@ -1,0 +1,45 @@
+
+\section{Work and Research Experience}
+
+\outerlist{
+
+\entrybig
+	{\textbf{Amazon, Inc.}}{Santa Clara, CA}
+	{AWS SageMaker Edge Software Development Intern}{May 2021 - July 2021}
+\innerlist{
+    \entry{\textbf{Containerization:} 
+        \innerlist{
+            \entry{ Effectively used Docker to containerize our team's ML inference binary for Windows and Linux. }
+            \entry{ Customers pull containers containing the binary and all dependencies built in and fire up the isolated container in the background, listening for requests from the host machine via shared unix socket.}
+            \entry{ Containers also expose system metrics and metrics from the binary through a published port. }
+        }
+    }
+    \entry{\textbf{Python Bindings:} 
+        \innerlist{
+            \entry { Generated bindings for existing C APIs using pybind11, a feature highly requested by customers. }
+            \entry { Bindings alleviate customer pain points by allowing API calls using a Python interface instead of C. }
+            \entry { Nicely packaged Python module into wheel file, allowing for easy installation using PIP. }
+        }
+    }
+    \entry{\textbf{Nightly Testing:} Modified python testing script to automatically create, run tests on, and terminate EC2s.}
+}
+
+\entrybig
+	{\textbf{UMich Biomedical and Clinical Informatics Lab}}{Ann Arbor, MI}
+	{Undergraduate Researcher}{Sep. 2020 - May 2021}
+\innerlist{
+	\entry{\textbf{Disease Diagnosis with Machine Learning:} Extracted useful imaging features from chest x-rays to train a model and diagnose patients with ARDS, a highly deadly respiratory distress syndrome.
+    }
+}
+
+\entrybig
+	{\textbf{Vivalink, Inc.}}{Campbell, CA}
+	{Software Engineering Intern}{May 2019 - Sep. 2019, Dec. 2020 - Feb. 2021}
+\innerlist{
+	\entry{\textbf{Language Conversion:} Converted novel blood pressure algorithm from Python to C++ to create a fast executable for the company's mobile app to use. }
+	\entry{\textbf{Data Migration:} Wrote C++ scripts to quickly migrate existing outdated
+	data to expedite testing the updated heart rate monitor. }
+}
+
+}
+
